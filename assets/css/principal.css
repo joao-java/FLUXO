@@ -7,9 +7,10 @@ section {
 }
 section .fluxograma {
   height: 100%;
+  width: 100%;
 }
 section .fluxograma img {
-  max-height: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
