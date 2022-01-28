@@ -8,6 +8,8 @@ section {
 section .fluxograma {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section .fluxograma img {
   height: 100%;
