@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=principal.css.map */
+section {
+  height: 70vh;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+section .fluxograma img {
+  height: 500px;
+}
+
+header {
+  height: 30vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=principal.css.map */
