@@ -6,8 +6,10 @@ section{
     overflow-y:hidden ;
     background: red;
     .fluxograma{
+        height: 100%;
         img{
-            height: 500px;
+            max-height: 100%;
+            object-fit: cover;
         }
     }
 }
