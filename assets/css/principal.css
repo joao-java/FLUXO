@@ -3,6 +3,7 @@ section {
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
+  background: red;
 }
 section .fluxograma img {
   height: 500px;
