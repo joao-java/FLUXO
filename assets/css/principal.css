@@ -1,23 +1,23 @@
-section {
-  height: 70vh;
+.section__um {
+  height: 65vh;
   width: 100%;
   overflow-y: hidden;
   background: red;
   position: relative;
 }
 
-section .fluxograma__icon {
+.section__um .fluxograma__icon {
   padding: 1rem;
   position: absolute;
   bottom: 0.5rem;
   right: 0.5rem;
 }
 
-section .fluxograma__icon img {
+.section__um .fluxograma__icon img {
   width: 50px;
 }
 
-section .fluxograma {
+.section__um .fluxograma {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -32,7 +32,7 @@ section .fluxograma {
   overflow-x: scroll;
 }
 
-section .fluxograma img {
+.section__um .fluxograma img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -47,7 +47,7 @@ section .fluxograma img {
 
 header {
   height: 30vh;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 header .line__svg {
@@ -61,6 +61,8 @@ header .line__svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 header .line__svg img {
