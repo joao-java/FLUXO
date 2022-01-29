@@ -12,10 +12,27 @@
         }
     }
     .section__um{
-        height: 70vh;
+        height: 65vh;
         .fluxograma__icon{
             img{
                 width: 50px;
+            }
+        }
+    }
+    .section__dois{
+        .section__dois__main{
+            .banner__dois{
+                object-fit: cover;
+                .banner__dois__fotos{
+                    height: 250px;
+                    width: 100%;
+                    .foto{
+                        width: 100%;
+                        img{
+                            width: 200px;
+                        }
+                    }
+                }
             }
         }
     }
