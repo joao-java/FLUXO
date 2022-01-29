@@ -1,5 +1,5 @@
 header{
-    height: 30vh;
+    height: 35vh;
     padding: 0.3rem;
     .line__svg{
         height: 100%;
@@ -9,6 +9,7 @@ header{
         object-fit: cover;
         img{
             max-height: 100%;
+            max-width: 100%;
         }
     }
 }
