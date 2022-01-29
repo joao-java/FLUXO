@@ -2,16 +2,33 @@
 section{
     height: 70vh;
     width: 100%;
-    overflow-x: scroll;
     overflow-y:hidden ;
     background: red;
+    position: relative;
+
+    .fluxograma__icon{
+        padding: 1rem;
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        img{
+            width: 50px;
+        }
+    }
+
     .fluxograma{
         height: 100%;
         width: 100%;
         object-fit: cover;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+
         img{
             height: 100%;
             object-fit: cover;
+            display: flex;
+            flex-direction: row;
         }
     }
 }
