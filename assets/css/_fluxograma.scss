@@ -1,9 +1,8 @@
 
 .section__um{
-    height: 65vh;
+    height: 650px;
     width: 100%;
     overflow-y:hidden ;
-    background: red;
     position: relative;
 
     .fluxograma__icon{
@@ -12,7 +11,7 @@
         bottom: 0.5rem;
         right: 0.5rem;
         img{
-            width: 50px;
+            width: 100px;
         }
     }
 
@@ -23,7 +22,18 @@
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
-
+        &::-webkit-scrollbar{
+            height: 8px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #635e5e;
+            border-radius: 5px;
+            
+        }
+        &::-webkit-scrollbar-track{
+            background: #88888865;
+            border-radius: 5px;
+        }
         img{
             height: 100%;
             object-fit: cover;

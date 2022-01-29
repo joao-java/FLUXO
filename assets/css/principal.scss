@@ -1,7 +1,13 @@
 @import '_fluxograma';
 @import '_header';
 @import '_section';
+@import '_media';
 
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 *{
     margin: 0px;
@@ -12,5 +18,13 @@
 }
 
 section{
-    max-width: 100%;
+    width: 100%;
+}
+
+.toque{
+    cursor: pointer;
+}
+
+#container{
+    max-width: 1500px;
 }

@@ -1,0 +1,22 @@
+@media (max-width: 600px){
+    header{
+        height: 30vh;
+        .line__svg{
+            img{
+                max-height: 100%;
+                width: 100%;
+            }
+        }
+        .qrcode{
+            display: none;
+        }
+    }
+    .section__um{
+        height: 70vh;
+        .fluxograma__icon{
+            img{
+                width: 50px;
+            }
+        }
+    }
+}
