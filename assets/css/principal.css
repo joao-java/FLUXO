@@ -70,8 +70,63 @@ header .line__svg img {
   max-width: 100%;
 }
 
+.section__dois {
+  position: relative;
+  width: 100%;
+}
+
 .section__dois .section__dois__fundo img {
   max-width: 100%;
+}
+
+.section__dois .section__dois__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  padding: 0.5rem;
+}
+
+.section__dois .section__dois__main .banner__um {
+  width: 50%;
+  padding: 2rem;
+  font-family: arial;
+}
+
+.section__dois .section__dois__main .banner__um h1 {
+  font-size: 14px;
+}
+
+.section__dois .section__dois__main .banner__um p {
+  font-size: 10px;
+  color: #635e5e;
+}
+
+.section__dois .section__dois__main .banner__dois .banner__dois__fotos {
+  width: 90%;
+  height: 70%;
+  overflow-y: scroll;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.section__dois .section__dois__main .banner__dois .foto {
+  width: 100%;
+  min-height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section__dois .section__dois__main .banner__dois .foto img {
+  width: 100%;
+  height: 100%;
 }
 
 * {
