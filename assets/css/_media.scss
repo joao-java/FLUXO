@@ -24,13 +24,22 @@
             .banner__dois{
                 object-fit: cover;
                 .banner__dois__fotos{
-                    height: 300px;
+                    height: 100%;
                     width: 100%;
                     .foto{
                         width: 100%;
                         img{
-                            width: 300px;
+                            min-width: 100%;
+                            min-height: 100%;
                         }
+                    }
+                }
+                .banner__dois__like{
+                    span{
+                        font-size: 12px;
+                    }
+                    .toque{
+                        width: 25px;
                     }
                 }
             }
