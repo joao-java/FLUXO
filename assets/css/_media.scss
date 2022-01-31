@@ -1,7 +1,11 @@
 @media (max-width: 600px){
     header{
-        height: 30vh;
+        height: 80vh;
         .line__svg{
+            display: none;
+        }
+        .line2__svg{
+            display: block;
             img{
                 max-height: 100%;
                 width: 100%;
@@ -26,6 +30,7 @@
                 .banner__dois__fotos{
                     height: 100%;
                     width: 100%;
+                    
                     .foto{
                         width: 100%;
                         img{

@@ -71,7 +71,15 @@ header {
   width: 100%;
 }
 
-header .line__svg {
+header .line2__svg {
+  display: none;
+}
+
+header .line2__svg {
+  height: 100%;
+}
+
+header .line__svg, header .line2__svg {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -86,7 +94,7 @@ header .line__svg {
      object-fit: cover;
 }
 
-header .line__svg img {
+header .line__svg img, header .line2__svg img {
   max-height: 90%;
   width: 90%;
 }
@@ -259,9 +267,15 @@ header .qrcode .qrcode__svg img {
 
 @media (max-width: 600px) {
   header {
-    height: 30vh;
+    height: 80vh;
   }
-  header .line__svg img {
+  header .line__svg {
+    display: none;
+  }
+  header .line2__svg {
+    display: block;
+  }
+  header .line2__svg img {
     max-height: 100%;
     width: 100%;
   }
