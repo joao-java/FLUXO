@@ -1,8 +1,8 @@
+@import '_top';
 @import '_fluxograma';
 @import '_header';
 @import '_section';
 @import '_media';
-@import '_top';
 
 body{
     display: flex;
@@ -32,6 +32,3 @@ section{
 }
 
 // ============ VARIAVEIS ============ 
-@mixin sombra {
-    box-shadow: 3px 3px 5px #0000009a;
-}
