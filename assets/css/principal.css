@@ -515,9 +515,13 @@ header .qrcode .qrcode__svg img {
   .top .top__container .top__header {
     max-width: 100%;
     height: 4rem;
+    padding: 1rem;
   }
   .top .top__container .top__header .icon {
-    font-size: 13px;
+    font-size: 19px;
+  }
+  .top .top__container .top__header span img {
+    width: 40px;
   }
   .top .top__container .top__acuracia {
     min-height: 100%;
@@ -525,7 +529,7 @@ header .qrcode .qrcode__svg img {
   .top .top__container .top__acuracia .top__acuracia1 {
     width: 100%;
     height: 100%;
-    top: 6rem;
+    top: 9rem;
   }
   .top .top__container .top__acuracia .top__acuracia1 .top__acuracia2 {
     top: 0;

@@ -63,8 +63,14 @@
             .top__header{
                 max-width: 100%;
                 height: 4rem;
+                padding: 1rem;
                 .icon{
-                    font-size: 13px;
+                    font-size: 19px;
+                }
+                span{
+                    img{
+                        width: 40px;
+                    }
                 }
             }
             .top__acuracia{
@@ -72,7 +78,7 @@
                 .top__acuracia1{
                     width: 100%;
                     height: 100%;
-                    top: 6rem;
+                    top: 9rem;
                     .top__acuracia2{
                         top: 0;
                         width: 60%;
