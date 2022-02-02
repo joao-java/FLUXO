@@ -223,12 +223,12 @@
 }
 
 .section__um .fluxograma::-webkit-scrollbar-thumb {
-  background: #635e5e;
+  background: #10880cd3;
   border-radius: 5px;
 }
 
 .section__um .fluxograma::-webkit-scrollbar-track {
-  background: #88888865;
+  background: #b8ceba65;
   border-radius: 5px;
 }
 
@@ -421,12 +421,12 @@ header .qrcode .qrcode__svg img {
 }
 
 .section__dois .section__dois__main .banner__dois .banner__dois__fotos::-webkit-scrollbar-thumb {
-  background: #635e5e;
+  background: #10880cd3;
   border-radius: 5px;
 }
 
 .section__dois .section__dois__main .banner__dois .banner__dois__fotos::-webkit-scrollbar-track {
-  background: rgba(136, 136, 136, 0.397);
+  background: #b8ceba65;
   border-radius: 5px;
 }
 
@@ -438,12 +438,12 @@ header .qrcode .qrcode__svg img {
 }
 
 .section__dois .section__dois__main .banner__dois .foto::after {
-  content: url(../icon/heart.svg);
+  content: url(../icon/logo.svg);
   position: absolute;
   top: 1rem;
   left: 1rem;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .section__dois .section__dois__main .banner__dois .foto img {
