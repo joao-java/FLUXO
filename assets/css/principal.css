@@ -520,6 +520,9 @@ header .qrcode .qrcode__svg img {
   .top .top__container .top__header .icon {
     font-size: 19px;
   }
+  .top .top__container .top__header span {
+    padding: 0 0.5rem;
+  }
   .top .top__container .top__header span img {
     width: 40px;
   }
@@ -530,6 +533,7 @@ header .qrcode .qrcode__svg img {
     width: 100%;
     height: 100%;
     top: 9rem;
+    padding-top: 2rem;
   }
   .top .top__container .top__acuracia .top__acuracia1 .top__acuracia2 {
     top: 0;
@@ -539,10 +543,10 @@ header .qrcode .qrcode__svg img {
     padding-top: 2rem;
   }
   .top .top__container .top__acuracia .top__acuracia1 .top__acuracia2 .top__acuracia1__text span {
-    font-size: 12px;
+    font-size: 17px;
   }
   .top .top__container .top__acuracia .top__acuracia1 .top__acuracia2 .top__acuracia1__text p {
-    font-size: 20px;
+    font-size: 35px;
   }
   .top .top__container .top__acuracia .top__acuracia1 .top__acuracia2 span:nth-child(2) {
     padding-bottom: 2rem;
