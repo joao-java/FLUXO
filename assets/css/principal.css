@@ -413,6 +413,7 @@ header .qrcode .qrcode__svg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0 0 1rem 0;
 }
 
 .section__dois .section__dois__main .banner__dois .banner__dois__fotos::-webkit-scrollbar {
@@ -430,14 +431,25 @@ header .qrcode .qrcode__svg img {
 }
 
 .section__dois .section__dois__main .banner__dois .foto {
-  padding: 2px;
-  width: 350px;
+  padding: 12px;
+  min-width: 350px;
   height: 350px;
+  position: relative;
+}
+
+.section__dois .section__dois__main .banner__dois .foto::after {
+  content: url(../icon/heart.svg);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 20px;
+  height: 20px;
 }
 
 .section__dois .section__dois__main .banner__dois .foto img {
   min-width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 
 .section__dois .section__dois__main .banner__dois .banner__dois__like {
