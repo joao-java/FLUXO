@@ -247,7 +247,7 @@
 
 header {
   height: 600px;
-  padding: 0.3rem;
+  padding: 0 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -595,14 +595,25 @@ header .qrcode .qrcode__svg img {
     -webkit-box-shadow: -3px 3px 6px #3f3e3e9a;
             box-shadow: -3px 3px 6px #3f3e3e9a;
     background: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     position: relative;
+  }
+  .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(1) samp i {
+    font-size: 14px;
   }
   .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(1) samp::before {
     content: 'Acurácia atual';
     font-size: 12px;
     position: absolute;
     top: 0.5rem;
+  }
+  .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(1) samp::after {
+    content: url(../icon/seta.svg);
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(2) {
     background: #fff;

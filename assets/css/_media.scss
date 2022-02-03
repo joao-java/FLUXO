@@ -124,13 +124,23 @@
                             width: 90%;
                             @include sombra;
                             background: #fff;
-                            margin-bottom: 1rem ;
+                            margin-bottom: 2rem ;
                             position: relative;
+                            i{
+                                font-size: 14px;
+                            }
                             &::before{
                                 content: 'Acurácia atual';
                                 font-size: 12px;
                                 position: absolute;
                                 top: 0.5rem;
+                            }
+                            &::after{
+                                content: url(../icon/seta.svg);
+                                position: absolute;
+                                right: 1rem;
+                                top: 50%;
+                                transform: translateY(-50%);
                             }
                         }
                     }
