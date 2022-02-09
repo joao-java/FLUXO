@@ -26,6 +26,7 @@
             a{
                 font-size: 10px;
                 padding: 0.4rem 0.8rem;
+
             }
         }
     }
@@ -132,9 +133,6 @@
                             background: #fff;
                             margin-bottom: 2rem ;
                             position: relative;
-                            i{
-                                font-size: 14px;
-                            }
                             &::before{
                                 content: 'Acurácia atual';
                                 font-size: 12px;

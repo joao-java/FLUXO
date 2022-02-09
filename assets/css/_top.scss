@@ -99,10 +99,8 @@
                     position: absolute;
                     top: 4px;
                     left: 4px;
-                    &::after{
-                        content: '%';
-                        font-size: 16px;
-
+                    i{
+                        font-size: 12px;
                     }
                 }
                 .top__grafico2{

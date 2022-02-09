@@ -133,9 +133,8 @@
   left: 4px;
 }
 
-.top .top__container .top__grafico .top__grafico1 samp::after {
-  content: '%';
-  font-size: 16px;
+.top .top__container .top__grafico .top__grafico1 samp i {
+  font-size: 12px;
 }
 
 .top .top__container .top__grafico .top__grafico1 .top__grafico2 {
@@ -625,9 +624,6 @@ header .qrcode .qrcode__svg img {
     background: #fff;
     margin-bottom: 2rem;
     position: relative;
-  }
-  .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(1) samp i {
-    font-size: 14px;
   }
   .top .top__container .top__grafico .top__grafico1 .top__grafico2:nth-child(1) samp::before {
     content: 'Acurácia atual';
